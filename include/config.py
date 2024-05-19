@@ -125,7 +125,6 @@ def add_league_teams(serverId,league,data):
     write_config_file('servers',config)
 
 def get_track_description(track):
-    api_key = "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"
     api_url = f"{env['OPEN_API_URL']}"
     headers = {
         "Content-Type": "application/json",
