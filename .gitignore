@@ -1,0 +1,17 @@
+# ignore log files to maintain user/server security
+/logs/*
+
+# ignore .env file but keep template
+*.env
+
+# keep .gitkeep files to retain folder structure
+!*.gitkeep
+
+# ignore local servers.json file but keep template
+*servers.json
+
+# ignore .venv 
+.venv
+
+# ignore pycache
+*__pycache__

@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  attman:
+    container_name: attman
+    build: .
+    volumes:
+      - ./logs:/app/logs
+      - ./config:/app/config
+      - ./resources:/app/resources
+    restart: always
