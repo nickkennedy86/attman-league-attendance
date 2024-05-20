@@ -36,7 +36,7 @@ The bot works on a server and league configuration and should be run in the foll
 
 /add_league - to add your league name to your server configuration
 
-/configure_leagUe - to add tags, roles and schedule to your league
+/configure_league - to add tags, roles and schedule to your league
 
 /add_event - to select the league and track for your league
 
